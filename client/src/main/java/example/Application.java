@@ -23,9 +23,9 @@ public class Application {
      * also can be seen at:
      * http://localhost:8080/env/info.foo
      */
-    @Bean
-    public CommandLineRunner printProperties(@Value("${info.foo}") final String fooProperty)  {
-        return args -> LOGGER.info("info.foo is: [{}]", fooProperty);
-    }
+//    @Bean
+//    public CommandLineRunner printProperties(@Value("${info.foo}") final String fooProperty)  {
+//        return args -> LOGGER.info("info.foo is: [{}]", fooProperty);
+//    }
 
 }
